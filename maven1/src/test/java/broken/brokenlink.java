@@ -24,6 +24,8 @@ public class brokenlink {
         HttpURLConnection huc = null;
         int respCode = 200;
         
+        //this is the code to open firefox browser.
+        
         driver = new FirefoxDriver();
         
         driver.manage().window().maximize();
